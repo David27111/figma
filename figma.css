@@ -1,0 +1,228 @@
+*
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #04050a;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.caixa {
+    width: 1160px;
+    max-width: 94%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao {
+    display: block;
+    box-sizing: border-box;
+    width: 512px;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 auto 17px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.botao-azul {
+    background-color: #1470ff;
+}
+
+.botao-azul:hover {
+    background-color: #4d91ff;
+}
+
+.botao-borda {
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    line-height: 52px;
+}
+
+.botao-borda:hover {
+    background-color: #333333;
+}
+
+.botao-pequeno {
+    width: 163px;
+    margin: 21px 0 0 0;
+}
+.hero {
+    height: 680px;
+    box-sizing: border-box;
+    background: #04050a url("imagens/Background.png") no-repeat 52px top;
+    background-size: 1388px auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 124px 0 0 35px;
+}
+
+.hero .caixa {
+    width: 600px;
+    margin: 0;
+}
+
+.hero-texto {
+    width: 600px;
+    text-align: center;
+}
+
+.hero-chamada {
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: 600;
+    margin: 0 0 9px 0;
+}
+
+.logo-combo {
+    display: block;
+    width: 384px;
+    margin: 4px auto 45px auto;
+}
+
+.aviso {
+    font-size: 11px;
+    text-align: center;
+    margin: 6px 0 0 0;
+}
+.bloco {
+    height: 570px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.bloco-primeiro {
+    height: 680px;
+    padding: 108px 0 2px 0;
+}
+
+.bloco-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bloco-imagem {
+    width: 560px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.bloco-imagem img {
+    display: block;
+    max-width: none;
+}
+
+.bloco-imagem-notebook {
+    padding-left: 3px;
+}
+
+.bloco-imagem-direita {
+    width: 500px;
+    margin: 0 20px 0 0;
+    position: relative;
+    top: 10px;
+    padding-left: 0;
+}
+
+.bloco-texto {
+    width: 590px;
+    margin: 0 -25px 0 0;
+}
+
+.bloco-texto-largo {
+    margin: 0 -25px 0 -21px;
+    position: relative;
+    top: 10px;
+}
+
+.bloco-texto h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 0 14px 0;
+}
+
+.bloco-texto p {
+    font-size: 16px;
+    color: #d4d4da;
+    margin: 0;
+}
+
+.dispositivos {
+    padding: 134px 0 145px 0;
+    text-align: center;
+}
+
+.dispositivos .caixa {
+    width: 1224px;
+}
+
+.dispositivos h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 40px 0;
+}
+
+.lista-dispositivos {
+    display: flex;
+    justify-content: space-around;
+    width: 1224px;
+    padding-left: 10px;
+}
+
+.dispositivo img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+}
+
+.dispositivo p {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 0 0 100px 0;
+}
+
+.logo-rodape {
+    margin-bottom: 30px;
+}
+
+.rodape-links {
+    list-style: none;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+.rodape-links li {
+    display: inline;
+    margin: 0 8px;
+}
+
+.rodape-links a {
+    color: #ffffff;
+    font-size: 15.5px;
+}
+
+.rodape-links a:hover {
+    text-decoration: underline;
+}
+
+.rodape-texto {
+    max-width: 1200px;
+    margin: 0 auto 23px auto;
+    font-size: 13.5px;
+    color: #d4d4da;
+}
